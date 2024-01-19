@@ -2,7 +2,7 @@ name: Hprofile Actions
 on: workflow_dispatch
 env: 
   AWS_REGION: us-east-1
-  ECS_REPOSITORY: vprofileapp
+  ECR_REPOSITORY: vprofileapp
   ECS_SERVICE: vproapp-act-svc
   ECS_CLUSTER: vproapp-act
   ECS_TASK_DEFINITION: aws-files/taskdeffile.json
